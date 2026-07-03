@@ -57,7 +57,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen pb-28">
-      <header className="px-5 pt-6 pb-4 max-w-125 mx-auto">
+      <header className="px-5 pt-6 pb-4 w-full md:max-w-125 mx-auto">
         <div className="flex items-center gap-2 text-primary">
           <GraduationCap className="h-6 w-6" />
           <span className="text-lg font-extrabold tracking-tight">TutorTrack</span>
@@ -67,7 +67,7 @@ export default function App() {
         </p>
       </header>
 
-      <main className="px-5 max-w-125 mx-auto flex flex-col gap-4">
+      <main className="px-5 w-full md:max-w-125 mx-auto flex flex-col gap-4">
         <Card>
           <CardHeader>
             <CardTitle>Student</CardTitle>
@@ -160,7 +160,7 @@ export default function App() {
       </main>
 
       <div className="fixed bottom-0 left-0 right-0 bg-paper/95 backdrop-blur border-t border-ink/10 px-5 py-3">
-        <div className="max-w-125 mx-auto">
+        <div className="w-full md:max-w-125 mx-auto">
           <Button
             size="lg"
             className="w-full"

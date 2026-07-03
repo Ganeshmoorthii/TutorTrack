@@ -31,7 +31,7 @@ const ReportPreview = memo(
     return (
       <div
         ref={ref}
-        className="paper-grain rounded-2xl bg-paper p-6 sm:p-7 w-full max-w-125 mx-auto"
+        className="paper-grain rounded-2xl bg-paper p-5 sm:p-6 md:p-7 w-full md:max-w-125 mx-auto"
         style={{ border: '1px solid rgba(43,43,40,0.08)' }}
       >
         <div>
